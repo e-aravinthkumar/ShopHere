@@ -1,0 +1,52 @@
+:root{
+    --peach-orange: #ffcc9c;
+    --light-pink: #ffa6a6;
+    --heliotrope: #be6bff;
+    --carnation-pink: #fea5cf;
+    --han-purple: #6138ff;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--han-purple);
+    color: white;
+    padding: 0.8rem 2rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-list-item{
+    list-style: none;
+}
+
+.nav-list-item a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+.nav-list-item a:hover, .nav-list a:active, .active{
+    color: var(--peach-orange) !important;
+}
+
